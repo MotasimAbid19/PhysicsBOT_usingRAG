@@ -21,7 +21,7 @@ vector_database = Chroma(
 )
 
 # Initialize the Ollama LLaMA 3.1 model
-llm = Ollama(model="llama3.1")
+llm = Ollama(model="qwen:latest")
 
 
 QUERY_PROMPT = PromptTemplate(
